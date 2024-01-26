@@ -10,6 +10,8 @@ nav{
     background-color: #1a1244;
     padding: 7px 120px;
     border-bottom: 4px solid #401e73;
+    position: sticky;
+    top: 0px;
 }
 nav div{
     font-size: 20px;
