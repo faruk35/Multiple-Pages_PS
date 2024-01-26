@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1244;
+    padding: 7px 120px;
+    border-bottom: 4px solid #401e73;
+    position: sticky;
+    top: 0px;
+}
+nav div{
+    font-size: 20px;
+}
+nav div h2{
+    color: white;
+}
+ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+}
+/* nav ends here  */
+main{
+    background-color: #1a1244;
+    margin-top: -90px;
+    margin-bottom: -90px;
+    padding: 100px 0px;
+}
+/* contact section starts from here  */
+
+form{
+    width: 800px ;
+    background-color: lightpink;
+    margin: 80px auto;
+    padding: 40px 0px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+form h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.name-email-parent input{
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 30px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+form textarea{
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+.form-submit-btn{
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(to right, blue, blueviolet, aqua);
+    color: white;
+}
+
+
+
+/* footer css part  */
+footer{
+    background-color: #5f1e69;
+    color: white;
+}
+.footer-container{
+    width: 900px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-first-item h3, .footer-second-item h3, .footer-third-item div{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.footer-first-item:first-child p{
+    margin-bottom: 50px;
+}
+.footer-second-item a{
+    color: white;
+    text-decoration: none;
+}
+.footer-second-item p{
+    margin-bottom: 10px;
+}
+.footer-third-item div a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    background-color: #1a1244;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer-third-item p{
+    margin-bottom: 10px;
+}
+.footer-third-item p:last-child{
+    margin-bottom: 70px;
+}
